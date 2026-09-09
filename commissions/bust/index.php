@@ -2,7 +2,7 @@
 
     <main>
         <div class="main-content">
-        <p>portfolio</p>
+        <p>main</p>
         </div>
     </main>
 

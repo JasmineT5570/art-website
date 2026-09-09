@@ -1,8 +1,8 @@
 <?php include("{$_SERVER["DOCUMENT_ROOT"]}/includes/header.php"); ?>
 
     <main>
-        <div class="main-content">
-        <p>portfolio</p>
+         <div class="main-content">
+        <p>main</p>
         </div>
     </main>
 

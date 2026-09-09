@@ -22,11 +22,11 @@ header h1 {
     border-bottom: blue solid 2px;
 }
 
-.header-mousou {
+.header-page-name {
     padding: 1em;
 }
 
-.header-mousou, nav ul li {
+.header-page-name, nav ul li {
     text-transform: uppercase;
 }
 
@@ -66,7 +66,7 @@ main {
 }
 
 .sidebar {
-
+    color: black;
 }
 
 footer {
