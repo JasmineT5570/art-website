@@ -14,11 +14,11 @@
 
         <nav>
             <ul>
-                <li><a href="../index.html">home</a></li>
-                <li><a href="../commissions/index.html">commissions</a></li>
-                <li><a href="../portfolio/index.html">portfolio</a></li>
-                <li class="active"><a href="index.html">contact</a></li>
-                <li><a href="../shopping-cart/index.html">🛒</a></li>
+                <li><a href="../index.php">home</a></li>
+                <li><a href="../commissions/index.php">commissions</a></li>
+                <li><a href="../portfolio/index.php">portfolio</a></li>
+                <li class="active"><a href="index.php">contact</a></li>
+                <li><a href="../shopping-cart/index.php">🛒</a></li>
             </ul>
         </nav>
     </header>

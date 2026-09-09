@@ -61,6 +61,14 @@ main {
     padding: 20px;
 }
 
+.main-content {
+    background-color: red;
+}
+
+.sidebar {
+
+}
+
 footer {
     margin-top: auto;
     background-color: lightskyblue;
