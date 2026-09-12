@@ -7,7 +7,7 @@
         </main>
 
         <aside class="sidebar card">
-            <p>aside content</p>
+            <p>Aside content</p>
         </aside>
         
 <?php include("{$_SERVER["DOCUMENT_ROOT"]}/includes/footer.php"); ?>
