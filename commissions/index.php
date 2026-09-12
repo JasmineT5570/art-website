@@ -1,12 +1,12 @@
 <?php include("{$_SERVER["DOCUMENT_ROOT"]}/includes/header.php"); ?>
 
     <main>
-         <div class="main-content">
-        <p>commissions</p>
-        </div>
+        <?php include("{$_SERVER["DOCUMENT_ROOT"]}/includes/notify_page.php"); ?>
+
+        <?php include("{$_SERVER["DOCUMENT_ROOT"]}/includes/commissions.php"); ?>
     </main>
 
-    <footer class="footer-style">&copy; 2026</footer>
+<?php include("{$_SERVER["DOCUMENT_ROOT"]}/includes/footer.php"); ?>
 </div>
 </body>
 

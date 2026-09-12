@@ -79,6 +79,9 @@ else {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
     <title>Mousou | <?= $folder_name ?></title>
 </head>
 
@@ -93,7 +96,13 @@ else {
                     <li><a href="/commissions/index.php">commissions</a></li>
                     <li><a href="/portfolio/index.php">portfolio</a></li>
                     <li><a href="/contact/index.php">contact</a></li>
-                    <li><a href="/shopping-cart/index.php">🛒</a></li>
+                    <li>
+                        <a href="/shopping-cart/index.php" alt="Shopping Cart">
+                            <svg class="icon nav-icon">
+                                <use href="/css/icons/sprite.svg#shopping-cart"></use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </header>

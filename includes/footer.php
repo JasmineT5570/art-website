@@ -1,1 +1,1 @@
-<footer class="footer-style">&copy; 2026 - <?php echo date('Y'); ?> Mousou </footer>
+<footer>&copy; 2026 - <?php echo date('Y'); ?> Mousou </footer>

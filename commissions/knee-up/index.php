@@ -1,9 +1,9 @@
 <?php include("{$_SERVER["DOCUMENT_ROOT"]}/includes/header.php"); ?>
 
     <main>
-         <div class="main-content">
-        <p>main</p>
-        </div>
+        <?php include("{$_SERVER["DOCUMENT_ROOT"]}/includes/notify_page.php"); ?>
+
+        <?php include("{$_SERVER["DOCUMENT_ROOT"]}/includes/commissions.php"); ?>
     </main>
 
 <?php include("{$_SERVER["DOCUMENT_ROOT"]}/includes/footer.php"); ?>
