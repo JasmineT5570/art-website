@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * *::before,
 *::after {
     box-sizing: border-box;
@@ -8,9 +12,48 @@
 }
 
 :root {
-    --blue-dark: oklch(16.43% 0.02019 265.766);
+    --blue-dark: oklch(31.182% 0.08433 264.764);
     --blue-normal: oklch(44.291% 0.18106 262.657);
     --blue-light: oklch(0.9503 0.0392 214.52);
+}
+
+aside {
+    background-color: var(--blue-dark);
+    box-shadow: var(--blue-normal) 7px 7px 7px;
+    padding: 2em;
+    min-height: 150px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+
+button {
+    background-color: var(--blue-normal);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: fit-content;
+    border: var(--blue-normal) dashed 3px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 300px;
+}
+
+body, textarea, input, button {
+    font-family: "Playpen Sans", cursive;
 }
 
 header h1 {
@@ -33,7 +76,6 @@ header h1 {
 
 body {
     background-color: white;
-    font-family: "Playpen Sans", cursive;
     color: var(--blue-normal);
 }
 
@@ -42,8 +84,8 @@ body {
     flex-direction: column;
     min-height: 100dvh;
     margin: 0 auto;
-    background-image: url("/css/images/background.png");
-    background-size: cover;
+    background-image: url("/css/images/background.webp");
+    background-repeat: repeat;
     background-color: lightblue;
 }
 
@@ -64,8 +106,6 @@ nav {
     border: dashed var(--blue-light) 5px;
     border-left: none;
     border-right: none;
-
-    a:link {text-decoration: none;}
 }
 
 nav ul {
@@ -78,16 +118,86 @@ nav ul {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     padding: 20px;
 }
 
+.com-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .card {
+    flex: 1;
     background-color: white;
     box-shadow: var(--blue-normal) 7px 7px 7px;
-    margin: 2em 4em;
     padding: 2em;
     min-height: 150px;
     border-radius: 5px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.commissions-card {
+    flex: 1;
+    background-color: var(--blue-dark);
+    box-shadow: var(--blue-normal) 7px 7px 7px;
+    padding: 2em;
+    min-height: 150px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    a:link, a:visited, a:hover, a:active {
+        color: white;
+        text-decoration: underline dotted;
+    }
+
+    p {
+        color: white;
+    }
+}
+
+.portfolio-art {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(180px, 1fr));
+    gap: 20px;
+
+    a {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-radius: 3px;
+    box-shadow: var(--blue-normal) 4px 4px 4px;
+    background-color: var(--blue-light);
+    }
+
+    img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 3px;
+    filter: grayscale(0%);
+    transition: filter 0.3s ease, opacity 0.3s ease;
+    }
+
+    img:hover {
+    filter: grayscale(30%);
+    opacity: 70%;
+    }
 }
 
 .notify-card {
@@ -100,6 +210,9 @@ main {
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: auto;
     background-color: white;
     padding: 1em;
@@ -108,20 +221,114 @@ footer {
     border-bottom: dashed var(--blue-light) 5px;
 }
 
+
+
+/*CONTACT FORM CSS*/
+input:not([type=submit]),
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--blue-normal);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: var(--blue-normal);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: var(--blue-normal);
+}
+
+.container {
+    border-radius: 5px;
+    background-color: white;
+    border: dashed 5px var(--blue-light);
+    padding: 20px;
+}
+/*CONTACT FORM END*/
+
+
+
+/*LOVEHATE CSS*/
 a:link {
     color: var(--blue-normal);
     transition: opacity 0.3s ease, color 0.3s ease;
+    text-decoration: none;
 }
 
 a:visited {
-    color: var(--blue-dark);
+    color: var(--blue-normal);
 }
 
-a:hover {
+nav a:hover,
+footer a:hover,
+main a:not(.portfolio-art a):hover {
     opacity: 50%;
-    color: var(--blue-normal);
 }
 
 a:active {
     color: var(--blue-dark);
 }
+/*LOVEHATE END*/
+
+
+
+/*MEDIA CSS*/
+@media screen and (min-width: 768px) {
+main {
+    width: 600px;
+    margin: 0 auto;
+}
+}
+
+@media screen and (min-width: 1024px) {
+.portfolio-art {
+        grid-template-columns: repeat(2, minmax(180px, 1fr));
+}
+
+main {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.com-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.home-layout {
+    display: flex;
+    flex-direction: row;
+    width: 850px;
+    margin: 0 auto;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.main-content {
+    flex: 2;
+    min-width: 0;
+}
+
+.sidebar {
+    flex: 1;
+    width: 250px;
+}
+
+aside {
+    margin-top: 20px;
+}
+}
+/*MEDIA END*/

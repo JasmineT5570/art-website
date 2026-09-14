@@ -85,7 +85,7 @@ else {
     <title>Mousou | <?= $folder_name ?></title>
 </head>
 
-<body>
+<body id="top">
     <div class="wrapper">
         <header>
             <h1 class="header-page-name">Mousou | <?php echo $folder_name ?></h1>
