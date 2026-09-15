@@ -4,4 +4,4 @@
             <button>Buy now~</button>
         </div>
 
-        <a href="/commissions/index.php" class="btn">Back to Commissions</a>
+        <a href="/commissions/index.php" class="btn">↩ Back to Commissions</a>

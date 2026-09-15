@@ -30,7 +30,9 @@ if ($file_name === "index") {
 
 //Array of folder names and display names.
 $folder_names = [
-    "ex" => "ex1"
+    //Infinityfree website hosting uses "htdocs" as the root folder name. 
+    //Changed it to "Art Website" for display. 
+    "Htdocs" => "Art Website"
 ];
 
 //Array of file names and display names.
