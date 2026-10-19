@@ -14,8 +14,8 @@
                 <label for="email">Email Address</label>
                 <input type="email" id="email" name="email" required placeholder="email@example.com">
 
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" required placeholder="Comments"></textarea>
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments" required placeholder="Comments"></textarea>
 
                 <input type="submit" value="Submit">
             </form>

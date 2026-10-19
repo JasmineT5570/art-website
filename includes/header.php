@@ -32,7 +32,7 @@ if ($file_name === "index") {
 $folder_names = [
     //Infinityfree website hosting uses "htdocs" as the root folder name. 
     //Changed it to "Art Website" for display. 
-    "Htdocs" => "Art Website"
+    "htdocs" => "Art Website"
 ];
 
 //Array of file names and display names.
