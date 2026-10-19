@@ -84,6 +84,7 @@ else {
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+    <script src="/js/script.js" defer></script>
     <title>Mousou | <?= $folder_name ?></title>
 </head>
 
