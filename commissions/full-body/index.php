@@ -1,6 +1,6 @@
 <?php 
 
-$com_type = "bust";
+$com_type = "full-body";
 
 include("{$_SERVER["DOCUMENT_ROOT"]}/includes/header.php"); 
 

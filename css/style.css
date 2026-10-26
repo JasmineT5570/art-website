@@ -183,6 +183,7 @@ main {
     border-radius: 3px;
     box-shadow: var(--blue-normal) 4px 4px 4px;
     background-color: var(--blue-light);
+    transition: box-shadow 0.3s ease, outline 0.3s ease;
     }
 
     img {
@@ -191,12 +192,16 @@ main {
     object-fit: contain;
     border-radius: 3px;
     filter: grayscale(0%);
-    transition: filter 0.3s ease, opacity 0.3s ease;
+    transition: filter 0.3s ease;
     }
 
     img:hover {
-    filter: grayscale(30%);
-    opacity: 70%;
+    filter: grayscale(100%);
+    }
+
+    a:hover {
+    outline: var(--blue-normal) 3px solid;
+    box-shadow: var(--blue-normal) 10px 10px 4px;
     }
 }
 
@@ -293,7 +298,11 @@ main {
 
 @media screen and (min-width: 1024px) {
 .portfolio-art {
-        grid-template-columns: repeat(2, minmax(180px, 1fr));
+    grid-template-columns: repeat(2, minmax(180px, 1fr));
+}
+
+.portfolio-art h2 {
+    grid-column: 1 / -1;
 }
 
 main {

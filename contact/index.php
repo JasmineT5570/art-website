@@ -8,16 +8,16 @@
                 <input type="hidden" name="access_key" value="acc84fecdb574e59af50fa5dc67bde5f">
 
                 <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" required placeholder="Your first name">
+                <input type="text" id="fname" name="firstname" placeholder="Your first name">
 
                 <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" required placeholder="Your last name">
+                <input type="text" id="lname" name="lastname" placeholder="Your last name">
 
                 <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" required placeholder="email@example.com">
+                <input type="email" id="email" name="email" placeholder="email@example.com">
 
                 <label for="comments">Comments</label>
-                <textarea id="comments" name="comments" required placeholder="Comments"></textarea>
+                <textarea id="comments" name="comments" placeholder="Comments"></textarea>
 
                 <input type="submit" value="Submit">
             </form>

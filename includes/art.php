@@ -1,55 +1,49 @@
 <div class="card">
     <div class="portfolio-art">
-            <a href="/css/images/art/auron-joshua.webp" target="_blank">
-                <img src="/css/images/art/auron-joshua.webp" alt="Auron and Joshua artwork">
-            </a>
+        <h2>Headshots</h2>
 
-            <a href="/css/images/art/auron1.webp" target="_blank">
-                <img src="/css/images/art/auron1.webp" alt="Auron artwork 1">
-            </a>
+        <a href="/css/images/art/bunny-oc-headshot.webp" target="_blank">
+            <img src="/css/images/art/bunny-oc-headshot.webp" alt="Bunny original character portrait">
+        </a>
 
-            <a href="/css/images/art/auron2.webp" target="_blank">
-                <img src="/css/images/art/auron2.webp" alt="Auron artwork 2">
-            </a>
+        <a href="/css/images/art/cyrus-oc-headshot.webp" target="_blank">
+            <img src="/css/images/art/cyrus-oc-headshot.webp" alt="Cyrus original character portrait">
+        </a>
 
-            <a href="/css/images/art/auron3.webp" target="_blank">
-                <img src="/css/images/art/auron3.webp" alt="Auron artwork 3">
-            </a>
+        <a href="/css/images/art/pink-oc-headshot.webp" target="_blank">
+            <img src="/css/images/art/pink-oc-headshot.webp" alt="Pink original character portrait">
+        </a>
 
-            <a href="/css/images/art/auron4.webp" target="_blank">
-                <img src="/css/images/art/auron4.webp" alt="Auron artwork 4">
-            </a>
+        <a href="/css/images/art/red-oc-headshot.webp" target="_blank">
+            <img src="/css/images/art/red-oc-headshot.webp" alt="Red original character portrait">
+        </a>
 
-            <a href="/css/images/art/auron5.webp" target="_blank">
-                <img src="/css/images/art/auron5.webp" alt="Auron artwork 5">
-            </a>
+        <h2>Knee-up</h2>
 
-            <a href="/css/images/art/joshua.webp" target="_blank">
-                <img src="/css/images/art/joshua.webp" alt="Joshua artwork">
-            </a>
+        <a href="/css/images/art/sathe-kneeup.webp" target="_blank">
+            <img src="/css/images/art/sathe-kneeup.webp" alt="Sathe knee-up artwork">
+        </a>
 
-            <a href="/css/images/art/oc-fanart1.webp" target="_blank">
-                <img src="/css/images/art/oc-fanart1.webp" alt="Original character fan art 1">
-            </a>
+        <a href="/css/images/art/auron-kneeup.webp" target="_blank">
+            <img src="/css/images/art/auron-kneeup.webp" alt="Auron knee-up artwork">
+        </a>
 
-            <a href="/css/images/art/oc-fanart2.webp" target="_blank">
-                <img src="/css/images/art/oc-fanart2.webp" alt="Original character fan art 2">
-            </a>
+        <h2>Full-body</h2>
 
-            <a href="/css/images/art/oc-fanart3.webp" target="_blank">
-                <img src="/css/images/art/oc-fanart3.webp" alt="Original character fan art 3">
-            </a>
+        <a href="/css/images/art/auron-age-fullbody.webp" target="_blank">
+            <img src="/css/images/art/auron-age-fullbody.webp" alt="Auron age full-body artwork">
+        </a>
 
-            <a href="/css/images/art/oc-fanart4.webp" target="_blank">
-                <img src="/css/images/art/oc-fanart4.webp" alt="Original character fan art 4">
-            </a>
+        <a href="/css/images/art/auron-fullbody-intro.webp" target="_blank">
+            <img src="/css/images/art/auron-fullbody-intro.webp" alt="Auron full-body introductory artwork">
+        </a>
 
-            <a href="/css/images/art/oc-fanart5.webp" target="_blank">
-                <img src="/css/images/art/oc-fanart5.webp" alt="Original character fan art 5">
-            </a>
+        <a href="/css/images/art/janet-fullbody.webp" target="_blank">
+            <img src="/css/images/art/janet-fullbody.webp" alt="Janet full-body artwork">
+        </a>
 
-            <a href="/css/images/art/oc-fanart6.webp" target="_blank">
-                <img src="/css/images/art/oc-fanart6.webp" alt="Original character fan art 6">
-            </a>
+        <a href="/css/images/art/joshua-fullbody-intro.webp" target="_blank">
+            <img src="/css/images/art/joshua-fullbody-intro.webp" alt="Joshua full-body introductory artwork">
+        </a>
     </div>
 </div>
