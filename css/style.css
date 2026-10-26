@@ -181,9 +181,8 @@ main {
     box-sizing: border-box;
     margin: 0 auto;
     border-radius: 3px;
-    box-shadow: var(--blue-normal) 4px 4px 4px;
+    box-shadow: 4px 4px 4px var(--blue-normal), 0 0 0 0 transparent;
     background-color: var(--blue-light);
-    transition: box-shadow 0.3s ease, outline 0.3s ease;
     }
 
     img {
@@ -191,17 +190,6 @@ main {
     height: 100%;
     object-fit: contain;
     border-radius: 3px;
-    filter: grayscale(0%);
-    transition: filter 0.3s ease;
-    }
-
-    img:hover {
-    filter: grayscale(100%);
-    }
-
-    a:hover {
-    outline: var(--blue-normal) 3px solid;
-    box-shadow: var(--blue-normal) 10px 10px 4px;
     }
 }
 
@@ -284,7 +272,21 @@ main a:not(.portfolio-art a):hover {
 a:active {
     color: var(--blue-dark);
 }
+
 /*LOVEHATE END*/
+
+
+
+/*PORTFOLIO ART A-ELEMENT HOVER CSS*/
+.portfolio-art a {
+    transition: outline 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-art a:hover {
+    outline: 5px solid var(--blue-normal);
+    box-shadow: var(--blue-normal) 0px 10px 10px;
+    }
+/*PORTFOLIO ART A-ELEMENT HOVER CSS END*/
 
 
 
