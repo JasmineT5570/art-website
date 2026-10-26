@@ -4,7 +4,9 @@
         <?php include("{$_SERVER["DOCUMENT_ROOT"]}/includes/notify_page.php"); ?>
 
         <div class="container">
-            <form action="action_page.php">
+            <form action="https://splitforms.com/api/submit" method="post">
+                <input type="hidden" name="access_key" value="acc84fecdb574e59af50fa5dc67bde5f">
+
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" required placeholder="Your first name">
 
