@@ -1,4 +1,4 @@
-<div class="commissions-card">
+<div class="com-content">
             <p>Buy a <?= $com_type ?> commission!</p>
                 
             <button>Buy now~</button>

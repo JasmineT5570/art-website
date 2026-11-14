@@ -144,12 +144,11 @@ main {
     gap: 10px;
 }
 
-.commissions-card {
+.com-content {
     flex: 1;
     background-color: var(--blue-dark);
     box-shadow: var(--blue-normal) 7px 7px 7px;
     padding: 2em;
-    min-height: 150px;
     border-radius: 5px;
     text-align: center;
     display: flex;
@@ -161,9 +160,22 @@ main {
         text-decoration: underline dotted;
     }
 
-    p {
+    h2, p {
         color: white;
     }
+}
+
+.commissions-card {
+    flex: 1;
+    background-color: var(--blue-dark);
+    box-shadow: var(--blue-normal) 7px 7px 7px;
+    padding: 1em;
+    border-radius: 999px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
 }
 
 .portfolio-art {
@@ -254,8 +266,6 @@ input[type=submit]:hover {
 
 /*LOVEHATE CSS*/
 a:link {
-    color: var(--blue-normal);
-    transition: opacity 0.3s ease, color 0.3s ease;
     text-decoration: none;
 }
 
@@ -263,18 +273,14 @@ a:visited {
     color: var(--blue-normal);
 }
 
-nav a:hover,
-footer a:hover,
-main a:not(.portfolio-art a):hover {
-    opacity: 50%;
+a:hover {
+    color: var(--blue-normal);
 }
 
 a:active {
     color: var(--blue-dark);
 }
-
 /*LOVEHATE END*/
-
 
 
 /*PORTFOLIO ART A-ELEMENT HOVER CSS*/

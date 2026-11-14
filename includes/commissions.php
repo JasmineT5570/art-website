@@ -1,13 +1,7 @@
 <div class="com-cards">
-    <div class="commissions-card">
-        <a href="/commissions/headshot/index.php">Headshot Commissions</a>
-    </div>
+    <a href="/commissions/headshot/index.php" class="commissions-card">Headshot Commissions</a>
 
-    <div class="commissions-card">
-        <a href="/commissions/knee-up/index.php">Knee-up Commissions</a>
-    </div>
+    <a href="/commissions/knee-up/index.php" class="commissions-card">Knee-up Commissions</a>
 
-    <div class="commissions-card">
-        <a href="/commissions/bust/index.php">Full-body Commissions</a>
-    </div>
+    <a href="/commissions/full-body/index.php" class="commissions-card">Full-body Commissions</a>
 </div>
