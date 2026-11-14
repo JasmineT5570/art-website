@@ -1,7 +1,7 @@
 <div class="card">
     <div class="portfolio-art">
-        <h2>Headshots</h2>
-
+        <h2><a href="/commissions/headshot/index.html">Headshots</a></h2>
+        
         <a href="/css/images/art/bunny-oc-headshot.webp" target="_blank">
             <img src="/css/images/art/bunny-oc-headshot.webp" alt="Bunny original character portrait">
         </a>
@@ -18,7 +18,7 @@
             <img src="/css/images/art/red-oc-headshot.webp" alt="Red original character portrait">
         </a>
 
-        <h2>Knee-up</h2>
+        <h2><a href="/commissions/knee-up/index.html">Knee-up</a></h2>
 
         <a href="/css/images/art/sathe-kneeup.webp" target="_blank">
             <img src="/css/images/art/sathe-kneeup.webp" alt="Sathe knee-up artwork">
@@ -28,7 +28,7 @@
             <img src="/css/images/art/auron-kneeup.webp" alt="Auron knee-up artwork">
         </a>
 
-        <h2>Full-body</h2>
+        <h2><a href="/commissions/full-body/index.html">Full-body</a></h2>
 
         <a href="/css/images/art/auron-age-fullbody.webp" target="_blank">
             <img src="/css/images/art/auron-age-fullbody.webp" alt="Auron age full-body artwork">

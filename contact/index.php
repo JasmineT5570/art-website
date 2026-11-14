@@ -3,6 +3,11 @@
     <main>
         <?php include("{$_SERVER["DOCUMENT_ROOT"]}/includes/notify_page.php"); ?>
 
+        <div class="contact-info">
+            <h2>Contact Me!</h2>
+            <p>Email: trmousou@gmail.com</p>
+        </div>
+
         <div class="container">
             <form action="https://splitforms.com/api/submit" method="post">
                 <input type="hidden" name="access_key" value="acc84fecdb574e59af50fa5dc67bde5f">

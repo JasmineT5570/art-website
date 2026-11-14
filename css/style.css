@@ -124,7 +124,7 @@ main {
     padding: 20px;
 }
 
-.com-cards {
+.com-buttons {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -144,38 +144,38 @@ main {
     gap: 10px;
 }
 
-.com-content {
+.com-content, .contact-info {
     flex: 1;
     background-color: var(--blue-dark);
     box-shadow: var(--blue-normal) 7px 7px 7px;
     padding: 2em;
     border-radius: 5px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-
-    a:link, a:visited, a:hover, a:active {
-        color: white;
-        text-decoration: underline dotted;
-    }
-
-    h2, p {
-        color: white;
-    }
-}
-
-.commissions-card {
-    flex: 1;
-    background-color: var(--blue-dark);
-    box-shadow: var(--blue-normal) 7px 7px 7px;
-    padding: 1em;
-    border-radius: 999px;
+    border: white 7px double;
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 10px;
     color: white;
+
+    h2 {
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+}
+
+.commissions-button {
+    flex: 1;
+    background-color: var(--blue-normal);
+    box-shadow: var(--blue-dark) 7px 7px 7px;
+    padding: 1em;
+    border-radius: 999px;
+    border: 3px dashed white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .portfolio-art {
@@ -183,7 +183,7 @@ main {
     grid-template-columns: repeat(1, minmax(180px, 1fr));
     gap: 20px;
 
-    a {
+    > a {
     width: 300px;
     height: 300px;
     display: flex;
@@ -280,6 +280,12 @@ a:hover {
 a:active {
     color: var(--blue-dark);
 }
+
+.commissions-button:hover {
+    color: white;
+    background-color: var(--blue-dark);
+    box-shadow: var(--blue-normal) 7px 7px 7px;
+}
 /*LOVEHATE END*/
 
 
@@ -288,7 +294,7 @@ a:active {
     transition: outline 0.3s ease, box-shadow 0.3s ease;
 }
 
-.portfolio-art a:hover {
+.portfolio-art > a:hover {
     outline: 5px solid var(--blue-normal);
     box-shadow: var(--blue-normal) 0px 10px 10px;
     }
@@ -318,7 +324,7 @@ main {
     margin: 0 auto;
 }
 
-.com-cards {
+.com-buttons {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
