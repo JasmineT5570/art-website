@@ -5,6 +5,7 @@
 
         <div class="contact-info">
             <h2>Contact Me!</h2>
+            <p>Have any questions? Send a message and I'll get back to you within 1-3 business days! ^_^</p>
             <p>Email: trmousou@gmail.com</p>
         </div>
 
@@ -24,7 +25,9 @@
                 <label for="comments">Comments</label>
                 <textarea id="comments" name="comments" placeholder="Comments"></textarea>
 
+                <div class="submit">
                 <input type="submit" value="Submit">
+                </div>
             </form>
         </div>
     </main>

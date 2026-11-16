@@ -39,13 +39,22 @@ button {
     margin: 0 auto;
 }
 
+.buy-btn {
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
 .btn {
     background-color: white;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 999px;
     width: fit-content;
     border: var(--blue-normal) dashed 3px;
     margin: 0 auto;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 img {
@@ -166,7 +175,6 @@ main {
 .commissions-button {
     flex: 1;
     background-color: var(--blue-normal);
-    box-shadow: var(--blue-dark) 7px 7px 7px;
     padding: 1em;
     border-radius: 999px;
     border: 3px dashed white;
@@ -175,6 +183,7 @@ main {
     flex-direction: column;
     gap: 10px;
     color: white;
+    text-decoration: none;
     transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
@@ -254,6 +263,11 @@ input[type=submit]:hover {
     background-color: var(--blue-normal);
 }
 
+.submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .container {
     border-radius: 5px;
     background-color: white;
@@ -266,6 +280,7 @@ input[type=submit]:hover {
 
 /*LOVEHATE CSS*/
 a:link {
+    color: var(--blue-normal);
     text-decoration: none;
 }
 
@@ -282,9 +297,17 @@ a:active {
 }
 
 .commissions-button:hover {
-    color: white;
-    background-color: var(--blue-dark);
+    background-color: white;
+    color: var(--blue-normal);
     box-shadow: var(--blue-normal) 7px 7px 7px;
+    border: var(--blue-normal) dashed 3px;
+}
+
+.btn:hover {
+    box-shadow: var(--blue-normal) 7px 7px 7px;
+    background-color: var(--blue-dark);
+    color: white;
+    border: white 3px dashed;
 }
 /*LOVEHATE END*/
 
@@ -298,6 +321,10 @@ a:active {
     outline: 5px solid var(--blue-normal);
     box-shadow: var(--blue-normal) 0px 10px 10px;
     }
+
+.portfolio-art > h2 > a:hover {
+    text-decoration: underline;
+}
 /*PORTFOLIO ART A-ELEMENT HOVER CSS END*/
 
 
