@@ -311,18 +311,14 @@ a.commissions-button:hover {
     border: var(--blue-normal) dashed 3px;
 }
 
-.btn:hover {
+a.btn:hover {
+    color: white;
     box-shadow: var(--blue-normal) 7px 7px 7px;
     background-color: var(--blue-dark);
-    color: white;
     border: white 3px dashed;
 }
 
-a.btn:hover {
-    color: white;
-}
-
-a.buy-btn:link {
+a.buy-btn:link, a.buy-btn:visited {
     color: white;
 }
 
