@@ -1,6 +1,8 @@
 <?php 
 
 $com_type = "headshot";
+$com_link = "https://www.paypal.com/ncp/payment/ER9NU6XUL6EPW";
+
 
 include("{$_SERVER["DOCUMENT_ROOT"]}/includes/header.php"); 
 

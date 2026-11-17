@@ -45,6 +45,7 @@ button {
     border-radius: 5px;
     width: fit-content;
     margin: 0 auto;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease, outline 0.3s ease;
 }
 
 .btn {
@@ -187,6 +188,11 @@ main {
     transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
+.commissions-button:link,
+.commissions-button:visited {
+    color: white;
+}
+
 .portfolio-art {
     display: grid;
     grid-template-columns: repeat(1, minmax(180px, 1fr));
@@ -296,7 +302,7 @@ a:active {
     color: var(--blue-dark);
 }
 
-.commissions-button:hover {
+a.commissions-button:hover {
     background-color: white;
     color: var(--blue-normal);
     box-shadow: var(--blue-normal) 7px 7px 7px;
@@ -308,6 +314,16 @@ a:active {
     background-color: var(--blue-dark);
     color: white;
     border: white 3px dashed;
+}
+
+a.btn:hover {
+    color: white;
+}
+
+a.buy-btn:hover {
+    background-color: var(--blue-normal);
+    color: var(--blue-white);
+    outline: white solid 3px;
 }
 /*LOVEHATE END*/
 

@@ -1,6 +1,7 @@
 <?php 
 
 $com_type = "full-body";
+$com_link = "https://www.paypal.com/ncp/payment/U26HGW6LTFZ4U";
 
 include("{$_SERVER["DOCUMENT_ROOT"]}/includes/header.php"); 
 

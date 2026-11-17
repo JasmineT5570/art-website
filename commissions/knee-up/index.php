@@ -1,6 +1,7 @@
 <?php 
 
 $com_type = "knee-up";
+$com_link = "https://www.paypal.com/ncp/payment/8KR4X2LMA59H4";
 
 include("{$_SERVER["DOCUMENT_ROOT"]}/includes/header.php"); 
 
