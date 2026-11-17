@@ -40,10 +40,12 @@ button {
 }
 
 .buy-btn {
-    background-color: white;
+    background-color: var(--blue-normal);
+    outline: dashed white 3px;
     padding: 10px 30px;
     border-radius: 5px;
     width: fit-content;
+    box-shadow: 0px 0px 10px var(--blue-light);
     margin: 0 auto;
     transition: box-shadow 0.3s ease, background-color 0.3s ease, outline 0.3s ease;
 }
@@ -164,7 +166,7 @@ main {
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     color: white;
 
     h2 {
@@ -320,10 +322,15 @@ a.btn:hover {
     color: white;
 }
 
+a.buy-btn:link {
+    color: white;
+}
+
 a.buy-btn:hover {
-    background-color: var(--blue-normal);
-    color: var(--blue-white);
+    background-color: white;
+    color: var(--blue-normal);
     outline: white solid 3px;
+    box-shadow: none;
 }
 /*LOVEHATE END*/
 

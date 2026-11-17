@@ -1,5 +1,5 @@
 <div class="com-content">
-            <p>Buy a <?= $com_type ?> commission!</p>
+            <h2>Buy a <?= $com_type ?> commission!</h2>
                 
             <a href="<?= $com_link ?>" class="buy-btn">Buy now~</a>
         </div>
